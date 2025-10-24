@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Website Blocker",
+  "version": "1.0",
+  "description": "Blocks specific websites except during certain hours.",
+  "permissions": ["webRequest", "storage", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Website Blocker"
+  }
+}
