@@ -12,7 +12,6 @@ const blockedSites = [
   "netflix.com",
   "hulu.com",
   "amazon.com",
-  "apple.com",
   "dubizzle.com",
 ];
 const redirectPage = "blocked.html";
